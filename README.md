@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# Backroad Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Backroad Travel Website — a responsive, single-page React application built to showcase travel tours and services.
 
-## Available Scripts
+Live Demo: https://backroad-application88.netlify.app
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## FEATURES
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Modern React UI using reusable components
+- Dynamic tour listings with image, text, country, and pricing
+- Clean, structured component layout (About, Tours, Services, etc.)
+- Smooth in-page navigation using anchor links (#home, #about, #tours, etc.)
+- Fully responsive design across devices
+- Hosted and deployed with Netlify
+- ESLint compliant and production-ready
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## PROJECT STRUCTURE
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+backroad-application/
+│
+├── public/
+│ └── index.html
+│
+├── src/
+│ ├── components/
+│ │ ├── About.js
+│ │ ├── Hero.js
+│ │ ├── Navbar.js
+│ │ ├── Services.js
+│ │ ├── Title.js
+│ │ └── Tours.js
+│ │
+│ ├── Data/
+│ │ └── Data.js
+│ │
+│ ├── images/
+│ │ ├── tour-1.jpeg
+│ │ ├── tour-2.jpeg
+│ │ └── ...
+│ │
+│ ├── App.js
+│ └── index.js
+│
+├── package.json
+└── README.txt
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## TECHNOLOGIES USED
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js (via Create React App)
+- Font Awesome Icons
+- Netlify for hosting
+- Plain CSS with Flexbox and Grid
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## INSTALLATION & SETUP
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repo:
+   git clone https://github.com/your-username/backroad-application.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate into the directory:
+   cd backroad-application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install dependencies:
+   npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Run the development server:
+   npm start
 
-## Learn More
+5. Build the production version:
+   npm run build
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## PAGE SECTIONS (ANCHORS)
 
-### Code Splitting
+#home - Hero section  
+#about - About the brand  
+#services - Service offerings  
+#tours - Featured tours  
+Footer - Social links and quick nav
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## DEPLOYMENT
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is deployed on Netlify. Any changes pushed to the `main` branch will trigger a new production build.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## AUTHOR
 
-### Advanced Configuration
+Ravi Kumar Jha  
+Email: jhakrravi20@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## LICENSE
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and licensed under the MIT License.
