@@ -18,38 +18,6 @@ Live Demo: https://backroad-application88.netlify.app
 
 ---
 
-## PROJECT STRUCTURE
-
-backroad-application/
-│
-├── public/
-│ └── index.html
-│
-├── src/
-│ ├── components/
-│ │ ├── About.js
-│ │ ├── Hero.js
-│ │ ├── Navbar.js
-│ │ ├── Services.js
-│ │ ├── Title.js
-│ │ └── Tours.js
-│ │
-│ ├── Data/
-│ │ └── Data.js
-│ │
-│ ├── images/
-│ │ ├── tour-1.jpeg
-│ │ ├── tour-2.jpeg
-│ │ └── ...
-│ │
-│ ├── App.js
-│ └── index.js
-│
-├── package.json
-└── README.txt
-
----
-
 ## TECHNOLOGIES USED
 
 - React.js (via Create React App)
